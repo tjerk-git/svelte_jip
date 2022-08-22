@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Alles kan, maar niks hoeft</h1>
+
+<script>
+	import Robot from '../components/robot.svelte';
+</script>
+
+
+<div class="robot_container">
+	<Robot/>
+</div>
+
+
+<style>
+	.robot_container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+</style>
